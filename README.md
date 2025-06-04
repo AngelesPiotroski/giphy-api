@@ -83,18 +83,30 @@ PASSPORT_CLIENT_SECRET=9qvamzgk56Op33e89dqbX2AVPIrE1WbEkqNxqCoD
 ```
 
 Endpoints principales
-    POST /api/logiN
-    POST /api/logout
-    GET /api/gifs/search?query=
-    GET /api/gifs/{id}
-    POST /api/favorite
-    GET /api/favorites
+- POST /api/logiN
+- POST /api/logout
+- GET /api/gifs/search?query=
+- GET /api/gifs/{id}
+- POST /api/favorite
+- GET /api/favorites
 
 
-
-
-
-
+## 🧪 TESTS
+### Ejecutar Tests
+Para ejecutar los tests, utilizamos el comando:
+```
+php artisan test
+```
+Sin embargo, es necesario asegurarse de que la base de datos de pruebas esté correctamente configurada antes de correr los tests.
+- Pasos para preparar el entorno de pruebas:
+### 1. Los test utilizan el archivo .env.testing
+### 2. Crear la base de datos de pruebas que está en .env.testing
+```
+CREATE DATABASE challenge_test;
+```
+### 3. Ejecutar migraciones
+### 4. Instalar Passport para entorno de testing
+### 5. Correr las migraciones de passport y agregar las nuevas claves y secretos al .env.testing:
 
 
 
