@@ -92,6 +92,10 @@ Endpoints principales
 
 
 ## 🧪 TESTS
+Coleccion POSTMAN:
+https://drive.google.com/file/d/1SYIqw1ASyI0FpfifRu2wuSc3KHGvqLO4/view?usp=drive_link
+
+
 ### Ejecutar Tests
 Para ejecutar los tests, utilizamos el comando:
 ```
