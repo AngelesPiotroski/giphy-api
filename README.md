@@ -108,6 +108,31 @@ CREATE DATABASE challenge_test;
 ### 4. Instalar Passport para entorno de testing
 ### 5. Correr las migraciones de passport y agregar las nuevas claves y secretos al .env.testing:
 
+----------------------------------------------------------------------------------------------------
+## DER
+![image](https://github.com/user-attachments/assets/6feebe12-3a04-46f7-b736-23a2b3e72d0a)
+
+## Diagrama de Casos de Uso:
+![image](https://github.com/user-attachments/assets/6e513458-0023-4e02-809f-0f7a1e854f76)
+
+## Diagrama de Secuencia:
+LOGIN:
+![image](https://github.com/user-attachments/assets/07f9684b-9db6-4f74-aafe-ccf418bf9f46)
+LOGOUT:
+![image](https://github.com/user-attachments/assets/34b9bd4a-1974-44a0-b9fa-629642185526)
+GUARDAR GIF FAVORITO:
+![image](https://github.com/user-attachments/assets/d587249b-d485-4ae3-88cd-786f9d64562a)
+BUSCAR GIF POR UNA CADENA DE TEXTO
+![image](https://github.com/user-attachments/assets/37375821-2ec7-4b70-a0ee-fce63509659f)
+BUSCAR GIF POR ID DE GIPHY
+![image](https://github.com/user-attachments/assets/6d650a29-8b0b-470e-9b94-0d6be516d925)
+BUSCAR GIF FAVORITO POR ID
+![image](https://github.com/user-attachments/assets/fc2a481f-f7f2-49a2-9923-d32ac535c082)
+GUARDAR LOGS
+![image](https://github.com/user-attachments/assets/b66133c2-3c3b-400a-a48e-d9cd7d8cef53)
+VISUALIZAR LOGS
+![image](https://github.com/user-attachments/assets/dd40c270-3dd8-4c2e-82ec-534c94a754e4)
+
 
 
 
