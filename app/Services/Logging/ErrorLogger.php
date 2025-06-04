@@ -1,5 +1,5 @@
 <?php
-namespace App\Services;
+namespace App\Services\Logging;
 
 use Illuminate\Support\Facades\Log;
 use Throwable;

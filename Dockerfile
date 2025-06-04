@@ -24,9 +24,8 @@ RUN composer install --no-interaction --no-progress --prefer-dist
 RUN chown -R www-data:www-data /var/www/html \
     && chmod -R 775 /var/www/html/storage /var/www/html/bootstrap/cache
     
-# NUEVAS RUTAS para configuración
+# RUTAS para configuración
 COPY ./docker/apache2/000-default.conf /etc/apache2/sites-available/000-default.conf
-COPY ./docker/php/ /usr/local/etc/php/
 
 # Expone el puerto de Apache
 EXPOSE 80

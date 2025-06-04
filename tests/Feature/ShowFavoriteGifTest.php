@@ -3,9 +3,9 @@ namespace Tests\Feature;
 
 use App\Models\FavoriteGif;
 use App\Models\User;
-use App\Services\ErrorLogger;
-use App\Services\FavoriteGifService;
-use App\Services\GiphyService;
+use App\Services\Logging\ErrorLogger;
+use App\Services\FavoriteGif\FavoriteGifService;
+use App\Services\Giphy\GiphyService;
 use Illuminate\Support\Facades\DB;
 use Laravel\Passport\Passport;
 use Mockery;

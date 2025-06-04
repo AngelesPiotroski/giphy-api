@@ -1,9 +1,9 @@
 <?php
-namespace App\Http\Controllers\Api;
+namespace App\Http\Controllers\Api\Auth;
 
 use App\Http\Controllers\Controller;
-use App\Services\AuthenticationService;
-use App\Services\ErrorLogger;
+use App\Services\Auth\AuthenticationService;
+use App\Services\Logging\ErrorLogger;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 use Throwable;

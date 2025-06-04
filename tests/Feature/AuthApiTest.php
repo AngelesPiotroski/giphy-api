@@ -3,7 +3,7 @@
 namespace Tests\Feature;
 
 use App\Models\User;
-use App\Services\ErrorLogger;
+use App\Services\Logging\ErrorLogger;
 use Laravel\Passport\Passport;
 use Illuminate\Support\Facades\Artisan;
 use Mockery;

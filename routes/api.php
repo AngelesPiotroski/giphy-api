@@ -1,9 +1,9 @@
 <?php
 
-use App\Http\Controllers\Api\AuthenticationController;
-use App\Http\Controllers\Api\FavoriteGifController;
-use App\Http\Controllers\Api\GifController;
-use App\Http\Controllers\Api\ServiceLogController;
+use App\Http\Controllers\Api\Auth\AuthenticationController;
+use App\Http\Controllers\Api\Gifs\FavoriteGifController;
+use App\Http\Controllers\Api\Gifs\GifController;
+use App\Http\Controllers\Api\Logs\ServiceLogController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 

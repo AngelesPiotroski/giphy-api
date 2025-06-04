@@ -1,9 +1,9 @@
 <?php
-namespace App\Http\Controllers\Api;
+namespace App\Http\Controllers\Api\Logs;
 
 use App\Http\Controllers\Controller;
 use App\Models\ServiceLog;
-use App\Services\ErrorLogger;
+use App\Services\Logging\ErrorLogger;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Throwable;

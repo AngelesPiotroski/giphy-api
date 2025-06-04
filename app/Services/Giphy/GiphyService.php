@@ -1,5 +1,5 @@
 <?php
-namespace App\Services;
+namespace App\Services\Giphy;
 
 use Illuminate\Support\Facades\Http;
 

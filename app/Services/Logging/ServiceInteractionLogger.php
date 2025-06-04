@@ -1,5 +1,5 @@
 <?php
-namespace App\Services;
+namespace App\Services\Logging;
 
 use App\Models\ServiceLog;
 use Illuminate\Http\Request;
